@@ -32,7 +32,7 @@ with header_container:
     left, cent,last = st.columns(3)
     div_container = st.container()
     with div_container:
-        st.image('images/sircrr.jpeg', width=70)
+        st.markdown('<img src="images/sircrr.jpeg"/>', unsafe_allow_html=True)
     with cent:
         st.image('images/sircrr.jpeg', width=70)
     # Place the image in the first column
