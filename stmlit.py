@@ -24,19 +24,18 @@ header_container.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-st.image('images/sircrr.jpeg', width=70)
-st.markdown('<h1 style="color:#FF1100;margin-left: 10px">Sir C R R college of Engineering</h1>', unsafe_allow_html=True)
+
 # Create two columns for header elements
-'''with header_container:
-    header_col1, header_col2 = st.columns([1, 3])
+with header_container:
+    #header_col1, header_col2 = st.columns([1, 3])
 
     # Place the image in the first column
-    with header_col1:
-        st.image('images/sircrr.jpeg', width=70)  # Adjust width as needed
+    #with header_col1:
+    st.image('images/sircrr.jpeg', width=70)  # Adjust width as needed
 
     # Place the header text in the second column and center it
-    with header_col2:
-        st.markdown('<h1 style="color:#FF1100;margin-left: 10px">Sir C R R college of Engineering</h1>', unsafe_allow_html=True)'''
+    #with header_col2:
+    st.markdown('<h1 style="color:#FF1100;margin-left: 10px">Sir C R R college of Engineering</h1>', unsafe_allow_html=True)
 
 st.markdown('<h1 style="color:#4D4DFF;text-align:center">Pneumonia Detection From CT-Scan</h1>', unsafe_allow_html=True)
 left_co, cent_co,last_co = st.columns(3)
