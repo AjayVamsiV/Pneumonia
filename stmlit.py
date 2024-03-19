@@ -40,10 +40,6 @@ with header_container:
     with col3:
         st.write(' ')
     
-    div_container = st.container()
-    with div_container:
-        st.markdown('<img src="images/sircrr.jpeg"/>', unsafe_allow_html=True)
-    
     # Place the image in the first column
     #with header_col1:
       # Adjust width as needed
