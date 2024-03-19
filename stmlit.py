@@ -30,7 +30,9 @@ header_container.markdown("""
 with header_container:
     #header_col1, header_col2 = st.columns([1, 3])
     left, cent,last = st.columns(3)
-
+    div_container = st.container()
+    with div_container:
+        st.image('images/sircrr.jpeg', width=70)
     with cent:
         st.image('images/sircrr.jpeg', width=70)
     # Place the image in the first column
