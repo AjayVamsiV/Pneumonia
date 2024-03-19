@@ -29,9 +29,9 @@ header_container.markdown("""
 # Create two columns for header elements
 with header_container:
     #header_col1, header_col2 = st.columns([1, 3])
-    left_co, cent_co,last_co = st.columns(3)
+    left, cent,last = st.columns(3)
 
-    with cent_co:
+    with cent:
         st.image('images/sircrr.jpeg', width=70)
     # Place the image in the first column
     #with header_col1:
