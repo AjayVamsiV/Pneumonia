@@ -29,12 +29,21 @@ header_container.markdown("""
 # Create two columns for header elements
 with header_container:
     #header_col1, header_col2 = st.columns([1, 3])
-    left, cent,last = st.columns(3)
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.write(' ')
+    
+    with col2:
+        st.image('images/sircrr.jpeg', width=70)
+    
+    with col3:
+        st.write(' ')
+    
     div_container = st.container()
     with div_container:
         st.markdown('<img src="images/sircrr.jpeg"/>', unsafe_allow_html=True)
-    with cent:
-        st.image('images/sircrr.jpeg', width=70)
+    
     # Place the image in the first column
     #with header_col1:
       # Adjust width as needed
