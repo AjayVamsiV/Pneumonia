@@ -4,3 +4,4 @@ numpy
 streamlit
 opencv-python-headless
 pillow
+matplotlib
