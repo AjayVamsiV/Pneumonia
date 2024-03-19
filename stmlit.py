@@ -35,7 +35,7 @@ with header_container:
 
     # Place the header text in the second column and center it
     with header_col2:
-        st.markdown('<h1 style="color:#FF1100;margin-left: 10px">Sir crr college of Engineering</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="color:#FF1100;margin-left: 10px">Sir C R R college of Engineering</h1>', unsafe_allow_html=True)
 
 st.markdown('<h1 style="color:#4D4DFF;text-align:center">Pneumonia Detection From CT-Scan</h1>', unsafe_allow_html=True)
 left_co, cent_co,last_co = st.columns(3)
