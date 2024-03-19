@@ -1,0 +1,6 @@
+tensorflow==2.1.6
+keras
+numpy
+streamlit
+opencv-python
+pillow
