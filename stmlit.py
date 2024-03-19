@@ -29,10 +29,13 @@ header_container.markdown("""
 # Create two columns for header elements
 with header_container:
     #header_col1, header_col2 = st.columns([1, 3])
+    left_co, cent_co,last_co = st.columns(3)
 
+    with cent_co:
+        st.image('images/sircrr.jpeg', width=70)
     # Place the image in the first column
     #with header_col1:
-    st.image('images/sircrr.jpeg', width=70)  # Adjust width as needed
+      # Adjust width as needed
 
     # Place the header text in the second column and center it
     #with header_col2:
