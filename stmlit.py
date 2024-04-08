@@ -49,7 +49,7 @@ left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image('images/lung.jpg')
 # Header description
-st.markdown('<h2 style="color:black;text-align:center">This classification model classifies CT-Scan into Pneumonic and Normal</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="color:black;text-align:center">This classification model classifies CT scan into Pneumonic and Normal</h2>', unsafe_allow_html=True)
 
 upload = st.file_uploader('Upload CT-Scan Image for classification', type=['png', 'jpg'])
 c1, c2 = st.columns(2)
