@@ -43,7 +43,7 @@ with c1:
 
 st.markdown('<h1 style="color:#FF1100;text-align:center">SIR C R R COLLEGE OF ENGINEERING</h1>', unsafe_allow_html=True)
 
-st.markdown('<h1 style="color:#4D4DFF;text-align:center">Pneumonia Detection From CT-Scan</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="color:#4D4DFF;text-align:center">Pneumonia Detection from CT-Scan</h1>', unsafe_allow_html=True)
 left_co, cent_co,last_co = st.columns(3)
 
 with cent_co:
